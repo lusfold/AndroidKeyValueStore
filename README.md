@@ -6,17 +6,18 @@ A KV store base on sqlite for Android Application. Inspire by [YTKKeyValueStore]
 Usage
 --------
 
-Download [the latest JAR][0] or grab via Maven:
+Download [the latest AAR][0] or grab via Maven:
 ```xml
 <dependency>
   <groupId>com.lusfold.androidkevaluestore</groupId>
-  <artifactId>androidkevaluestore</artifactId>
+  <artifactId>library</artifactId>
   <version>0.1.0</version>
+  <type>aar</type>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.lusfold.androidkeyvaluesotre:androidkevaluestore:0.1.0'
+compile 'com.lusfold.androidkeyvaluestore:library:0.1.0@aar'
 ```
 
 Init before use:  
@@ -66,5 +67,5 @@ License
     limitations under the License.
 
 
- [0]: https://bintray.com/lusfold/maven/AndroidKeyValueStore/_latestVersion
+ [0]: https://bintray.com/artifact/download/lusfold/maven/com/lusfold/androidkeyvaluestore/library/0.1.0/library-0.1.0.aar
  [1]: https://github.com/yuantiku/YTKKeyValueStore
