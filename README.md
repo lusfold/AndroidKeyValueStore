@@ -1,7 +1,7 @@
 AndroidKeyValueStore
 ======
 
-A KV store base sqlite for Android Application. Inspire by [YTKKeyValueStore][1].
+A KV store base on sqlite for Android Application. Inspire by [YTKKeyValueStore][1].
 
 Usage
 --------
@@ -44,7 +44,7 @@ KVStore.getInstance().insert("a", "a");
 KVStore.getInstance().delete("a");  
 KVStore.getInstance().insertOrUpdate("a", "b");  
 KVStore.getInstance().get("a");  
-KVStore.getInstance().getByContains("a");  
+KVStore.getInstance().getByPrefix("a");  
 KVStore.getInstance().getByContains("a");  
 ```  
 
